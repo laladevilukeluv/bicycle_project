@@ -12,7 +12,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-bottom: 60;
 }
 main.container {
     padding-bottom: 60;
@@ -474,9 +473,7 @@ footer {
 }
 
 /* Ensure content doesn't get hidden behind the footer */
-body {
-  padding-bottom: 60px; /* Adjust this value based on your footer's height */
-}
+
 
 /* Add some space between the main content and the footer */
 main {
