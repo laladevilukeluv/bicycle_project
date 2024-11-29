@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-bottom: 60;
+}
+main.container {
+    padding-bottom: 60;
 }
 
 .container {
@@ -462,7 +466,6 @@ main {
 }
 
 /* Footer styles */
-/* Footer styles */
 footer {
   background-color: #1f2937;
   color: white;
@@ -541,4 +544,10 @@ main {
 
 .mobile-menu a:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+.bicycle-tours {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
 }
