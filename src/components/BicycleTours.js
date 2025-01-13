@@ -46,7 +46,7 @@ i18n
           },
           home: {
             hero: {
-              title: 'Explore the World on Two Wheels',
+              title: 'Explore the World on BROMPTON BICYCLYE',
               description: 'Experience unforgettable bicycle adventures across stunning landscapes.',
               ctaButton: 'Discover Our Tours',
               imageAlt: 'Cyclist riding through a scenic landscape'
@@ -94,7 +94,7 @@ i18n
             tourHighlights: 'Tour Highlights',
             callToBook: 'Call to Book',
             coastal: {
-              title: 'Coastal Breeze Tour',
+              title: 'Coastal Tour',
               description: 'Experience the refreshing sea breeze as you cycle along picturesque coastlines.',
               fullDescription: 'Our Coastal Breeze Tour takes you on a journey along stunning shorelines, quaint fishing villages, and dramatic sea cliffs. Feel the salt air on your skin as you pedal through some of the most beautiful coastal landscapes.',
               highlights: [
@@ -180,7 +180,7 @@ i18n
           },
           home: {
             hero: {
-              title: '二輪で世界を探索',
+              title: 'Bromptonで楽しむ',
               description: '息をのむような景色の中で忘れられない自転車の冒険を体験しましょう。',
               ctaButton: 'ツアーを見る',
               imageAlt: '景色の良い風景を走るサイクリスト'
@@ -228,7 +228,7 @@ i18n
             tourHighlights: 'ツアーのハイライト',
             callToBook: '電話で予約',
             coastal: {
-              title: '海岸線ブリーズツアー',
+              title: '海岸ツアー',
               description: '絵のような海岸線に沿ってサイクリングしながら、爽やかな海風を体験します。',
               fullDescription: '海岸線ブリーズツアーでは、美しい海岸線、のどかな漁村、劇的な海食崖に沿って旅をします。最も美しい沿岸の風景を通り抜けながら、肌に塩の空気を感じてください。',
               highlights: [
@@ -403,10 +403,10 @@ export default function BicycleTours({ children }) {
 
       {isMenuOpen && (
         <div className="mobile-menu">
-          <div className="mobile-menu-content">
             <button className="close-menu-button" onClick={closeMenu} aria-label={t('common.closeMenu')}>
               <X />
             </button>
+          <div className="mobile-menu-content">
             {tabs.map((tab) => (
               <Link
                 key={tab.id}
@@ -416,10 +416,6 @@ export default function BicycleTours({ children }) {
                 <span>{tab.label}</span>
               </Link>
             ))}
-            <Link to="/plans" className="cta-button" onClick={closeMenu}>
-              {t('common.bookTour')}
-              <ChevronRight className="icon" />
-            </Link>
           </div>
         </div>
       )}
