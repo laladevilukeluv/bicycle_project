@@ -79,9 +79,11 @@ i18n
           },
           aboutPage: {
             title: 'About Slow Cycling',
-            paragraph1: 'Slow Cycling was born from a passion for exploring the world on two wheels. Our founders, avid cyclists themselves, realized that the best way to truly experience a place is by bicycle.',
-            paragraph2: 'We believe in sustainable, responsible tourism that benefits local communities and minimizes environmental impact. Our tours are designed to immerse you in the local culture, cuisine, and landscapes.',
-            paragraph3: 'Whether you\'re a seasoned cyclist or a casual rider, we have a tour that\'s perfect for you. Join us for an unforgettable adventure!',
+            paragraph1: 'Slow cycling is a travel style that allows you to enjoy cycling at a relaxed pace while immersing yourself in nature and culture. Rather than simply reaching a destination, it focuses on appreciating the scenery and encounters along the way, leading to new discoveries and unforgettable experiences.',
+            paragraph2: 'Experience the breathtaking coastline and rich culture of Miyazaki!',
+            paragraph3: 'We offer tours that allow you to deeply explore the nature, history, and traditions of Miyazaki. With its warm climate, endless coastline, and vibrant local communities, Miyazaki provides visitors with unforgettable experiences.',
+            paragraph4: 'Through slow cycling, you can take your time to discover the stunning coastal landscapes of Miyazaki. Ride along the scenic shoreline, visit breathtaking viewpoints, savor delicious local seafood, and immerse yourself in traditional crafts and festivals.',
+            paragraph5: 'We are committed to sustainable and responsible tourism that benefits local communities while minimizing environmental impact. Join us for a one-of-a-kind journey that can only be experienced in Miyazaki.',
             imageAlt: 'Slow Cycling founders on a bicycle tour'
           },
           plansPage: {
@@ -101,11 +103,12 @@ i18n
                 'Ride along scenic coastal roads',
                 'Visit charming seaside towns',
                 'Enjoy fresh seafood at local restaurants',
-                'Explore hidden beaches and coves'
+                'Explore hidden beaches and coves',
+                'Kimono Dressing, Calligraphy, and Tea Ceremony Experience'
               ],
-              duration: '7 days',
-              difficulty: 'Moderate',
-              groupSize: '8-12 people'
+              duration: '10 ~ 11 hours',
+              difficulty: 'Easy',
+              groupSize: '4-5 people'
             },
             mountain: {
               title: 'Alpine Adventure',
@@ -141,9 +144,9 @@ i18n
             email: 'Email',
             phone: 'Phone',
             address: 'Address',
-            streetAddress: '123 Adventure Lane',
-            cityStateZip: 'Cycleville, CA 98765',
-            country: 'United States',
+            streetAddress: 'Shimanouchi 5621-8',
+            cityStateZip: 'Miyazaki-city, Miyazaki 8800121',
+            country: 'Japan',
             mapAlt: 'Map showing the location of Slow Cycling office'
           }
         }
@@ -152,9 +155,9 @@ i18n
         translation: {
           menu: {
             home: 'ホーム',
-            about: '概要',
+            about: '私たちについて',
             plans: 'プラン',
-            contact: '連絡先',
+            contact: 'お問い合わせ',
           },
           common: {
             slowCycling: 'スローサイクリング',
@@ -213,16 +216,17 @@ i18n
           },
           aboutPage: {
             title: 'スローサイクリングについて',
-            paragraph1: 'スローサイクリングは、二輪で世界を探索する情熱から生まれました。自転車愛好家である私たちの創設者は、ある場所を本当に体験する最良の方法は自転車であることに気づきました。',
-            paragraph2: '私たちは、地域社会に利益をもたらし、環境への影響を最小限に抑える持続可能で責任ある観光を信じています。私たちのツアーは、地元の文化、料理、風景に没頭できるようにデザインされています。',
-            paragraph3: 'ベテランのサイクリストであっても、カジュアルなライダーであっても、あなたにぴったりのツアーがあります。忘れられない冒険に参加しましょう！',
+            paragraph1: 'スローサイクリングとは、ゆったりとしたペースで自然や文化を感じながら自転車を楽しむ旅のスタイルです。ただ目的地へ向かうのではなく、道中の景色や出会いを大切にしながら進むことで、新しい発見や感動を味わえます。',
+            paragraph2: '私たちは、宮崎の大自然や歴史、伝統を深く体験できるツアーを提供しています。南国ならではの温暖な気候、どこまでも続く海岸線、そして郷土料理や地元の人々とのふれあいが、訪れる人々に特別な体験をもたらします。',
+            paragraph3: 'スローサイクリングを通じて、宮崎ならではの海岸沿いの風景や文化をじっくり味わっていただけます。自転車でのんびりと海岸線を走りながら、絶景のビュースポットを巡ったり、新鮮な海の幸を使った郷土料理を楽しんだり、地域の伝統工芸や祭りに触れることができます。',
+            paragraph4: '私たちは、地域社会に利益をもたらし、環境への影響を最小限に抑える持続可能で責任ある観光を大切にしています。宮崎でしか味わえない特別な体験を、一緒に楽しみましょう。',
             imageAlt: '自転車ツアーに参加するスローサイクリングの創設者たち'
           },
           plansPage: {
             title: '私たちのツアープラン',
             learnMore: '詳細を見る',
             backToPlans: 'プランに戻る',
-            duration: '期間',
+            duration: '所要時間',
             difficulty: '難易度',
             groupSize: 'グループサイズ',
             tourHighlights: 'ツアーのハイライト',
@@ -235,11 +239,12 @@ i18n
                 '景色の良い沿岸道路を走る',
                 '魅力的な海辺の町を訪れる',
                 '地元のレストランで新鮮なシーフードを楽しむ',
-                '隠れたビーチや入り江を探索する'
+                '隠れたビーチや入り江を探索する',
+                '着付け・書道・茶道の体験'
               ],
-              duration: '7日間',
-              difficulty: '中級',
-              groupSize: '8-12人'
+              duration: '10~11時間',
+              difficulty: '初級',
+              groupSize: '4-5人'
             },
             mountain: {
               title: 'アルパインアドベンチャー',
@@ -275,9 +280,9 @@ i18n
             email: 'メールアドレス',
             phone: '電話番号',
             address: '住所',
-            streetAddress: '冒険レーン123',
-            cityStateZip: 'サイクルビル、CA 98765',
-            country: 'アメリカ合衆国',
+            streetAddress: '880-0121',
+            cityStateZip: '宮崎県宮崎市島之内5621-8',
+            country: '日本',
             mapAlt: 'スローサイクリングオフィスの位置を示す地図'
           }
         }
@@ -426,9 +431,10 @@ export default function BicycleTours({ children }) {
 
       <footer>
         <div className="container">
-          <p>&copy; 2024 Slow Cycling. {t('common.allRightsReserved')}</p>
+          <p>&copy; 2025 s'ism. {t('common.allRightsReserved')}</p>
         </div>
       </footer>
     </div>
+    
   )
 }

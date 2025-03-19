@@ -1,0 +1,105 @@
+.tour-timetable {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .timetable-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .timetable-title {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #3b82f6;
+  }
+  
+  .timetable-theme {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #4b5563;
+  }
+  
+  .timetable-container {
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timetable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .timetable th {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .timetable th .icon {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .time-header {
+    width: 100px;
+  }
+  
+  .timetable td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+  }
+  
+  .time-cell {
+    font-weight: bold;
+    color: #4b5563;
+    width: 100px;
+  }
+  
+  .activity-cell {
+    color: #1f2937;
+  }
+  
+  .timetable tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  .timetable tr:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .special-row {
+    background-color: #eff6ff !important;
+  }
+  
+  .special-row td {
+    color: #1d4ed8;
+  }
+  
+  @media (max-width: 600px) {
+    .timetable-title {
+      font-size: 1.1rem;
+    }
+    
+    .timetable-theme {
+      font-size: 0.9rem;
+    }
+    
+    .time-cell {
+      width: 80px;
+    }
+    
+    .timetable th, 
+    .timetable td {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }

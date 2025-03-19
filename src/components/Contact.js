@@ -15,14 +15,15 @@ export default function Contact() {
             <Mail className="icon" />
             <div>
               <h3>{t('contactPage.email')}</h3>
-              <a href="mailto:info@slowcycling.com">info@slowcycling.com</a>
+              <a href="mailto:s.ism20231001@gmail.com">s.ism20231001@gmail.com</a>
             </div>
           </div>
           <div className="contact-item">
             <Phone className="icon" />
             <div>
               <h3>{t('contactPage.phone')}</h3>
-              <a href="tel:+12345678900">+1 (234) 567-8900</a>
+              {/*<a href="tel:+0985397060">(0985) 39-7060</a> */}
+              <p>(0985) 39-7060</p>
             </div>
           </div>
           <div className="contact-item">

@@ -560,3 +560,260 @@ main {
   min-height: 100vh;
   min-height: 100svh;
 }
+/* Add these styles to your App.css file */
+
+/* Adjust the plan details layout */
+.plan-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .plan-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .tour-schedule-section {
+    width: 100%;
+  }
+  
+  .schedule-title {
+    margin-bottom: 1rem;
+    color: #3b82f6;
+    font-size: 1.2rem;
+  }
+  
+  /* Tour Timetable Styles */
+  .tour-timetable {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .timetable-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .timetable-title {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #3b82f6;
+  }
+  
+  .timetable-theme {
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #4b5563;
+  }
+  
+  .timetable-container {
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .timetable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .timetable th {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .timetable th .icon {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .time-header {
+    width: 100px;
+  }
+  
+  .timetable td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+  }
+  
+  .time-cell {
+    font-weight: bold;
+    color: #4b5563;
+    width: 100px;
+  }
+  
+  .activity-cell {
+    color: #1f2937;
+  }
+  
+  .timetable tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  .timetable tr:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .special-row {
+    background-color: #eff6ff !important;
+  }
+  
+  .special-row td {
+    color: #1d4ed8;
+  }
+  
+  @media (max-width: 768px) {
+    .plan-details {
+      grid-template-columns: 1fr;
+    }
+    
+    .timetable-title {
+      font-size: 1rem;
+    }
+    
+    .timetable-theme {
+      font-size: 0.9rem;
+    }
+    
+    .time-cell {
+      width: 80px;
+    }
+    
+    .timetable th, 
+    .timetable td {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+  /* Add these styles to your App.css file */
+
+/* Coming Soon styles */
+/* Add or update these styles in your App.css file */
+
+/* Tour Schedule section styling */
+.tour-schedule-section {
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.schedule-title {
+  margin-bottom: 1.5rem;
+  color: #3b82f6;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Call to Book button container */
+.call-to-book-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.call-to-book-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.call-to-book-button:hover {
+  background-color: #2563eb;
+}
+
+.call-to-book-button .icon {
+  margin-right: 0.5rem;
+}
+
+/* Adjust plan details layout */
+.plan-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.plan-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .plan-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .tour-schedule-section {
+    padding: 0 1rem;
+  }
+}
+/* Add these styles to your App.css file */
+
+/* Coming Soon styles */
+.plan-image-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .coming-soon-icon {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .coming-soon {
+    opacity: 0.9;
+  }
+  
+  .plan-card.coming-soon {
+    position: relative;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .plan-card button.disabled {
+    background-color: #94a3b8;
+    cursor: not-allowed;
+  }
+  
+  .plan-card button.disabled:hover {
+    background-color: #94a3b8;
+  }
+  
+
+  
