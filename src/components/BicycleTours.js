@@ -69,11 +69,11 @@ i18n
               title: 'Why Choose Slow Cycling?',
               reason1: 'Authentic local experiences',
               reason2: 'Small group sizes for personalized attention',
-              reason3: 'High-quality, well-maintained bicycles',
+              reason3: 'High-quality and well-maintained BROMPTON bikes are available for free rental (you may also bring your own BROMPTON).',
               reason4: 'Eco-friendly and sustainable travel'
             },
             ctaSection: {
-              title: 'Ready for Your Next Adventure?',
+              title: 'Ready for Slow Cycling in Miyazaki?',
               button: 'View Our Tour Plans'
             }
           },
@@ -156,7 +156,7 @@ i18n
           menu: {
             home: 'ホーム',
             about: '私たちについて',
-            plans: 'プラン',
+            plans: 'ツアー予約',
             contact: 'お問い合わせ',
           },
           common: {
@@ -200,18 +200,18 @@ i18n
               allSkillLevels: {
                 title: 'すべてのスキルレベル',
                 description: '初心者から経験豊富なサイクリストまで対応したツアー。'
-              }
+              },
             },
             whyChooseUs: {
               title: 'なぜスローサイクリングを選ぶのか？',
               reason1: '本物の地元体験',
               reason2: 'きめ細かな対応のための小グループサイズ',
-              reason3: '高品質で整備の行き届いた自転車',
+              reason3: '高品質で整備の行き届いたBROMPTONを無料でレンタル（御自分のBROMPTONを持参していただくことも可）',
               reason4: 'エコフレンドリーで持続可能な旅行'
             },
             ctaSection: {
-              title: '次の冒険の準備はできましたか？',
-              button: 'ツアープランを見る'
+              title: '宮崎県の大自然でスローサイクリングを体験しませんか？',
+              button: 'ツアーを予約する'
             }
           },
           aboutPage: {
@@ -223,7 +223,7 @@ i18n
             imageAlt: '自転車ツアーに参加するスローサイクリングの創設者たち'
           },
           plansPage: {
-            title: '私たちのツアープラン',
+            title: 'ツアープラン',
             learnMore: '詳細を見る',
             backToPlans: 'プランに戻る',
             duration: '所要時間',
@@ -434,7 +434,6 @@ export default function BicycleTours({ children }) {
           <p>&copy; 2025 s'ism. {t('common.allRightsReserved')}</p>
         </div>
       </footer>
-    </div>
-    
+    </div>    
   )
 }

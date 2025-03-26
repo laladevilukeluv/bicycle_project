@@ -22,8 +22,8 @@ export default function Contact() {
             <Phone className="icon" />
             <div>
               <h3>{t('contactPage.phone')}</h3>
-              {/*<a href="tel:+0985397060">(0985) 39-7060</a> */}
-              <p>(0985) 39-7060</p>
+              {/*<a href="tel:+8109072924723">(090)7292-4723</a> */}
+              <p>(090)7292-4723</p>
             </div>
           </div>
           <div className="contact-item">

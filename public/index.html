@@ -1,33 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#3b82f6" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="スローサイクリングで息をのむような宮崎の景色の中で忘れられない自転車の冒険に出かけましょう。経験豊富なガイド、景色の良いルート、全てのスキルレベルに対応した宮崎サイクリングツアーをご用意しています。"
     />
+    <meta name="keywords" content="Brompton, ブロンプトン, 宮崎サイクリング, サイクリング, 宮崎旅行, 自転車ツアー宮崎, Miyazaki Cycling, Miyazaki Travel" />
+    <meta name="author" content="s'ism" />
+    
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://xs750353.xsrv.jp/" />
+    <meta property="og:title" content="スローサイクリング - 宮崎サイクリングツアー(ブロンプトン)" />
+    <meta property="og:description" content="スローサイクリングで息をのむような宮崎の景色の中で忘れられない自転車の冒険に出かけましょう。経験豊富なガイド、景色の良いルート、全てのスキルレベルに対応した宮崎サイクリングツアーをご用意しています。" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- LINE specific -->
+    <meta property="line:image" content="%PUBLIC_URL%/line-image.png" />
+    <meta property="line:card" content="%PUBLIC_URL%/line-image.png" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="%PUBLIC_URL%/og-image.png" />
+    <meta name="twitter:url" content="http://xs750353.xsrv.jp/" />
+    <meta name="twitter:title" content="スローサイクリング - 宮崎サイクリングツアー(ブロンプトン)" />
+    <meta name="twitter:description" content="スローサイクリングで息をのむような宮崎の景色の中で忘れられない自転車の冒険に出かけましょう。経験豊富なガイド、景色の良いルート、全てのスキルレベルに対応した宮崎サイクリングツアーをご用意しています。" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+    
+    <!-- Alternate language versions -->
+    <link rel="alternate" hrefLang="en" href="http://xs750353.xsrv.jp/" />
+    <link rel="alternate" hrefLang="ja" href="http://xs750353.xsrv.jp/" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "スローサイクリング宮崎",
+        "alternateName": "Slow Cycling Miyazaki",
+        "url": "https://www.slowcycling.com",
+        "logo": "https://www.slowcycling.com/logo.png",
+        "description": "スローサイクリングで息をのむような宮崎の景色の中で忘れられない自転車の冒険に出かけましょう。経験豊富なガイド、景色の良いルート、全てのスキルレベルに対応した宮崎サイクリングツアーをご用意しています。",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "島之内5621-8",
+          "addressLocality": "宮崎市",
+          "addressRegion": "宮崎県",
+          "postalCode": "880-0121",
+          "addressCountry": "JP"
+        },
+        "telephone": "+810985397060",
+        "email": "s.ism20231001@gmail.com",
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "priceRange": "¥¥",
+        "keywords": "宮崎サイクリング, サイクリング, スローサイクリング, 宮崎旅行, 自転車ツアー宮崎, 宮崎バイクツアー, 海岸サイクリング, 日本サイクリングツアー",
+        "sameAs": [
+          "https://www.facebook.com/slowcycling",
+          "https://www.instagram.com/slowcycling"
+        ],
+        "potentialAction": {
+          "@type": "ReserveAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.slowcycling.com/contact",
+            "inLanguage": "ja-JP"
+          },
+          "result": {
+            "@type": "Reservation",
+            "name": "宮崎サイクリングツアー予約"
+          }
+        }
+      }
+    </script>
+    
+    <title>スローサイクリング - 宮崎サイクリングツアーと冒険</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <p>このウェブサイトを表示するには、JavaScriptを有効にする必要があります。</p>
+      <p>You need to enable JavaScript to run this app.</p>
+    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -38,6 +101,17 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+    <!-- Google Analytics (replace UA-XXXXX-Y with your actual tracking ID) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     -->
   </body>
 </html>

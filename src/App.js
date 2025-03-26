@@ -462,6 +462,7 @@ import BicycleTours from './components/BicycleTours';
 import Home from './components/Home';
 import About from './components/About';
 import Plans from './components/Plans';
+import PlanDetail from './components/PlanDetail';
 import Contact from './components/Contact';
 
 function App() {
@@ -472,6 +473,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/plans" element={<Plans />} />
+          <Route path="/plans/:planId" element={<PlanDetail />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BicycleTours>

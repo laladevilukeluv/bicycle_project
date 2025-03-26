@@ -369,6 +369,7 @@ main {
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 1rem;
+  text-decoration: none;
 }
 
 .back-button .icon {
@@ -441,6 +442,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .contact-info {
@@ -703,7 +705,7 @@ main {
 
 /* Tour Schedule section styling */
 .tour-schedule-section {
-  margin: 2rem auto;
+  margin: 6rem auto;
   max-width: 800px;
   text-align: center;
 }
@@ -814,6 +816,95 @@ main {
   .plan-card button.disabled:hover {
     background-color: #94a3b8;
   }
+/* Add this to your App.css file */
+.plan-link-button {
+    display: block;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .plan-link-button:hover {
+    background-color: #2563eb;
+  }
+  /* Add these styles for the site title link */
+.site-title {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+  }
+  
+  .site-title:hover {
+    opacity: 0.9;
+  }
+  
+  /* Make sure the header h1 doesn't have a margin that would affect the link */
+  header h1 {
+    margin: 0;
+    /*〜 font-size: 1.5rem;*/
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Plan link button styles */
+  .plan-link-button {
+    display: block;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .plan-link-button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Find the CSS for the why-choose-us li or add this if it doesn't exist */
+  .why-choose-us li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add this new CSS to prevent the icon from shrinking */
+  .why-choose-us .icon {
+    margin-right: 1rem;
+    color: #3b82f6;
+    flex-shrink: 0; /* Prevent the icon from shrinking */
+    min-width: 24px; /* Ensure minimum width */
+    width: 24px; /* Set fixed width */
+    height: 24px; /* Set fixed height */
+  }
+  
+  /* For very small screens, you might want to adjust the text wrapping */
+  @media (max-width: 480px) {
+    .why-choose-us li {
+      align-items: flex-start; /* Align items to the top for better text wrapping */
+    }
+  
+    .why-choose-us li span {
+      flex: 1; /* Allow the text to take up remaining space */
+      word-break: break-word; /* Allow word breaking for very long words */
+    }
+  }
+  
+  
   
 
   
